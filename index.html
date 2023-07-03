@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JtD Rentals</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1 class="flash-text">
+          Welcome to JtD Rentals <br />
+          Party supply rental shop <br/>
+          We got bounce houses!
+        </h1>        
+
+        <div class="logo">
+          <img src="./img/company-log.jpg" alt="JtD Rentals Logo" />
+        </div>
+
+        <div class="contact-info">
+          <p>
+            <i class="fas fa-phone"></i> Phone:
+            <span id="phone-number">(660) 726-2069</span>
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i> Email:
+            <a href="mailto:Jtdrentalsllc@gmail.com">Jtdrentalsllc@gmail.com</a>
+          </p>
+          <p>
+            <i class="fas fa-map-marker"></i> Headquarters:
+            <span>Albany, MO, US</span>
+          </p>
+        </div>
+      </div>
+      
+      <nav>
+        <ul>
+          <li><a href="#" onclick="showContent('home')">Home</a></li>
+          <li><a href="#" onclick="showContent('about')">About</a></li>
+          <li><a href="#" onclick="showContent('rentals')">Our Rentals</a></li>
+          <li><a href="#" onclick="showContent('locations')">Locations</a></li>
+          <li><a href="#" onclick="showContent('contact')">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home-section">
+        <h2>Customer Testimonials</h2>
+        <div class="testimonial">
+          <p>
+            "I have used JtD rentals for several years.... from bounce houses to
+            a wacky waving arm inflatable man, to popcorn and cotton candy
+            machines. Excellent customer service, and great prices! "
+          </p>
+          <p class="customer">- Stacky Coots on Facebook</p>
+        </div>
+        <div class="testimonial">
+          <p>
+            "Great experience!! We rented this for our daughter's 3rd birthday.
+            Highly recommended!"
+          </p>
+          <p class="customer">- Marci Knisley on Facebook</p>
+        </div>
+
+        <div class="testimonial">
+          <p>
+            "We used the rental bounce houses, snow cone machine, cotton candy
+            machine, & water dunker and this made for an awesome event! The
+            owners were professional, kind, and helpful in setting up and
+            teaching us how to work the machines. I highly recommend them for
+            your event!! "
+          </p>
+          <p class="customer">- Emiley Maudlin on Facebook</p>
+        </div>
+      </section>
+
+      <section id="about-section">
+        <h2>About Us</h2>
+        
+          <p>
+            At JtD Rentals, we pride ourselves in providing an exceptional experience for our customers. With our wide range of offerings, we are here to make your events and parties truly memorable. Whether you're hosting a children's birthday party, a community gathering, or any special occasion, we have everything you need to create an exciting and fun-filled atmosphere.
+          </p>
+          <p>
+            Immerse yourself in a world of laughter and joy with our amazing selection of <strong>bounce houses</strong> and <strong>obstacle courses</strong> designed to keep the little ones entertained for hours. Watch as their faces light up with excitement as they jump, slide, and conquer the thrilling challenges.
+          </p>
+          <p>
+            Looking to add some extra excitement to your event? We have you covered with our unique offerings such as <strong>foam machines</strong>, <strong>claw machines</strong>, and <strong>cotton candy machines</strong>. Imagine the delight on everyone's faces as they try their luck at grabbing a prize or indulge in the sweet and fluffy goodness of freshly spun cotton candy.
+          </p>
+          <p>
+            Beat the summer heat with our refreshing <strong>snow cone machines</strong>, perfect for cooling off on a hot day. And don't forget to satisfy your taste buds with the irresistible aroma of freshly popped popcorn from our <strong>popcorn machines</strong>.
+          </p>
+          <p>
+            At JtD Rentals, we understand that every event is unique. That's why we offer a variety of options to cater to your specific needs. From <strong>fan rentals</strong> to create a comfortable environment to <strong>bounce castles</strong> that spark imagination and adventure, we have it all.
+          </p>
+          <p>
+            Choose JtD Rentals for your next event and let us turn your vision into a reality. Our dedicated team is here to assist you every step of the way, ensuring a seamless and stress-free experience. Get in touch with us today and let's make your event extraordinary with JtD Rentals!
+          </p>
+        
+      </section>
+
+      <section id="rentals-section" style="display: none">
+        <h2>Our Rentals</h2>
+        <div class="rentals-grid">
+          <div class="rental-item">
+            <img src="./img/bounce-house1.jpg" alt="Bounce House 1" />
+            <p>
+              Create a foam party extravaganza with our Foam Machine! Watch as kids dive into a sea of fun and laughter.
+            </p>
+          </div>
+          <div class="rental-item">
+            <img src="./img/bounce-house2.jpg" alt="Bounce House 2" />
+            <p>
+              Beat the heat and satisfy your cravings with our Snow Cone Machine. Cool off with delicious icy treats!
+            </p>
+          </div>
+          <div class="rental-item">
+            <img src="./img/bounce-house3.jpg" alt="Bounce House 3" />
+            <p>
+              Challenge yourself and conquer our thrilling Obstacle Course. Test your skills and unleash your inner adventurer!
+            </p>
+          </div>
+
+          <div class="rental-item">
+            <img src="./img/bounce-house4.jpg" alt="Bounce House 3" />
+            <p>Step up your game and try your luck with our Claw Machine. Can you grab the ultimate prize?</p>
+          </div>
+
+          <div class="rental-item">
+            <img src="./img/bounce-house5.jpg" alt="Bounce House 3" />
+            <p>Experience the excitement of a slam dunk with our Inflatable Basketball Hoop. Shoot some hoops and unleash your inner MVP!</p>
+          </div>
+
+          <div class="rental-item">
+            <img src="./img/bounce-house6.jpg" alt="Bounce House 3" />
+            <p>Keep your event cool and comfortable with our Industrial Fan. Enjoy a refreshing breeze wherever you need it!</p>
+          </div>
+
+          <div class="rental-item">
+            <img src="./img/bounce-house7.jpg" alt="Bounce House 3" />
+            <p>Let imaginations soar with our Bounce Castle. Watch as kids bounce, play, and create unforgettable memories.</p>
+          </div>
+
+          <div class="rental-item">
+            <img src="./img/bounce-house8.jpg" alt="Bounce House 3" />
+            <p>Indulge your sweet tooth with our Cotton Candy Machine. Delight in fluffy, melt-in-your-mouth cotton candy goodness!</p>
+          </div>
+
+          <div class="rental-item">
+            <img src="./img/bounce-house9.jpg" alt="Bounce House 3" />
+            <p>Add a pop of flavor to your event with our Popcorn Machine. Enjoy the irresistible aroma and taste of freshly popped popcorn.</p>
+          </div>
+
+          <div class="rental-item">
+            <img src="./img/bounce-house10.jpg" alt="Bounce House 3" />
+            <p>Take aim and hit the target with our thrilling Target Bounce. Test your accuracy and enjoy endless bouncing fun!</p>
+          </div>
+        </div>
+
+        <p>
+          Please note that all items are subject to availability. We recommend contacting us in advance to secure your 
+          desired rental items and ensure a seamless experience.
+        </p>
+
+        <p>
+          Feel free to browse our website to explore our rental offerings and get in touch with us to discuss your specific requirements.
+          We look forward to serving you and making your event a resounding success.
+        </p>
+      </section>
+
+      <section id="locations-section" style="display: none">
+        <h2>Locations</h2>
+        <p>
+          Darlington, MO, US · Albany, MO, US · Eagleville, MO, US · McFall, MO,
+          US · Grant City, MO, US · New Hampton, MO, US · Stanberry, MO, US
+        </p>
+      </section>
+
+      <main>
+        <section id="contact-section">
+          <h2>Contact Us</h2>
+          <p>Contact us for a quote:</p>
+          <form>
+            <div>
+              <label for="first-name">First Name:</label>
+              <input type="text" id="first-name" name="first-name" required />
+            </div>
+            <div>
+              <label for="last-name">Last Name:</label>
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+            <div>
+              <label for="event-date">Date of Event:</label>
+              <input type="date" id="event-date" name="event-date" required />
+            </div>
+            <div>
+              <label for="rentals-desired">Rentals Desired:</label>
+              <textarea
+                id="rentals-desired"
+                name="rentals-desired"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </section>
+      </main>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 JtD Rentals. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
